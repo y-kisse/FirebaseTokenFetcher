@@ -5,7 +5,7 @@ import config
 def main():
     email = config.EMAIL
     password = config.PASSWORD
-    api_key = config.APYKEY
+    api_key = config.APIKEY
 
     ret_json = sign_in_with_email_and_password(api_key, email, password)
 
